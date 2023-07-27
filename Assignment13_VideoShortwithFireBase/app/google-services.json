@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "289896067111",
+    "project_id": "videoshort-91c3e",
+    "storage_bucket": "videoshort-91c3e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:289896067111:android:3d8bfa60992ad29a6c1e02",
+        "android_client_info": {
+          "package_name": "vn.iostar.assignment13_videoshortwithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "289896067111-oro7t431rjtnrcmg60hna8dvh3cbvgkk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwb0RW6J6bfvBcAXxo6Fm_ocDjmywAVFM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "289896067111-oro7t431rjtnrcmg60hna8dvh3cbvgkk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

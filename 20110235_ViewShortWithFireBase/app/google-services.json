@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "835563758761",
+    "project_id": "videoshort-bb02c",
+    "storage_bucket": "videoshort-bb02c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835563758761:android:9cef008279aba62b4675b8",
+        "android_client_info": {
+          "package_name": "com.example.a20110235_viewshortwithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835563758761-t4b3n7hsig6p8pp39g45t4thaggemhct.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvtpezu4YskOKXkoG_VDdcQy1TEoo5ZeI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835563758761-t4b3n7hsig6p8pp39g45t4thaggemhct.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

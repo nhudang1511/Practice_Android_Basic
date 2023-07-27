@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="340dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+
+            app:srcCompat="@drawable/top_background2" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="394dp"
+            android:layout_height="103dp"
+            android:layout_marginLeft="20dp"
+            android:background="#00535353"
+            android:breakStrategy="high_quality"
+            android:text="Create\nAccount"
+            android:textColor="#1940A1"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="187dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <EditText
+                android:id="@+id/editTxtName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@drawable/name"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTxtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="15dp"
+                android:ems="10"
+                android:hint="Email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/editTxtPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:drawableLeft="@drawable/password"
+                android:drawablePadding="21dp"
+                android:ems="10"
+                android:hint="Password"
+                android:inputType="textPassword" />
+
+            <RadioGroup
+                android:id="@+id/rdGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+
+                <RadioButton
+                    android:id="@+id/rdNam"
+                    android:layout_width="105dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+
+                    android:text="Nam" />
+
+                <RadioButton
+                    android:id="@+id/rdNu"
+                    android:layout_width="115dp"
+                    android:layout_height="wrap_content"
+
+                    android:text="Nữ" />
+
+            </RadioGroup>
+        </LinearLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="117dp"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/btnConfirm"
+                android:layout_width="49dp"
+                android:layout_height="45dp"
+                android:background="@drawable/btn_arrow2"
+                android:foreground="@drawable/btn_arrow2"
+                android:text=""
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.956"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.222" />
+
+            <TextView
+                android:id="@+id/txtForgetPass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forget your password? Recovery it"
+                android:textColor="#1940A1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.936" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</ScrollView>

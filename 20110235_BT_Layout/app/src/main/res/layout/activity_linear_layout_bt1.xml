@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#79C4FF"
+            android:gravity="center"
+            android:text="01"
+            android:textColor="#F44336"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#83F669"
+            android:gravity="center"
+            android:text="02"
+            android:textColor="#F44336"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <!--<TextView
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="50sp"
+        android:text="1"
+        android:textColor="#191818"
+        android:background="#ff0"
+        />-->
+    <LinearLayout
+        android:layout_weight="3"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#D7E91EAF"
+            android:gravity="center"
+            android:text="03"
+            android:textColor="#F44336"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#B000FF37"
+            android:gravity="center"
+            android:text="04"
+            android:textColor="#F44336"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#5167E1"
+            android:gravity="center"
+            android:text="05"
+            android:textColor="#F44336"
+            android:textSize="50sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    <!-- <TextView
+         android:layout_weight="3"
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:textSize="50sp"
+         android:text="1"
+         android:textColor="#191818"
+         android:background="#03A9F4"
+         />-->
+    <!--<TextView
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="50sp"
+        android:text="6"
+        android:textColor="#191818"
+        android:background="#FF5722"
+        />-->
+    <LinearLayout
+        android:layout_weight="4"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:background="#F44336"
+            android:text="06"
+            android:textColor="#F4ECEC"
+            android:textSize="50sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#03A9F4"
+            android:text="06"
+            android:textColor="#FBECEC"
+            android:textSize="50sp" />
+    </LinearLayout>
+    <TextView
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:textSize="30sp"
+        android:text="07"
+        android:textColor="#F44336"
+        android:background="#FFEB3B"
+        />
+</LinearLayout>

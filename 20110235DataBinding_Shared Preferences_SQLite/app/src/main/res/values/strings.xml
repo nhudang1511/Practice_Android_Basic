@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DataBinding</string>
+    <string name="error_field_required">Email không được rỗng</string>
+    <string name="error_invalid_email">Email không đúng định dạng</string>
+    <string name="error_invalis_password">Mật khẩu phải lớn hơn 4 kí tự</string>
+</resources>

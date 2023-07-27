@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBox
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cbmemberme"
+        android:text="Remember me"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonTxt"
+        android:text="Login"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/usernameTxt"
+        android:ems="10"
+        android:hint="Use Name"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordTxt"
+        android:ems="10"
+        android:hint="password"
+        android:inputType="textPersonName"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

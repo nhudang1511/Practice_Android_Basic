@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:usesCleartextTraffic="true"
+    android:networkSecurityConfig="@xml/network_security_config"
+    android:orientation="vertical"
+    android:background="#f8eeec"
+    tools:context=".LoginActivity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:scaleType="fitXY"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@drawable/top_background1" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="30dp"
+        android:layout_weight="1"
+        >
+        <TextView
+            android:id="@+id/txtWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ea6d35"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:text="Welcome" />
+        <TextView
+            android:id="@+id/txtBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ea6d35"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:text="Back" />
+
+        <EditText
+            android:id="@+id/etUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:textColorHint="#776e6e"
+            android:drawableLeft="@drawable/email"
+            android:textColor="#776e6e"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/etUserPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:textColor="#776e6e"
+            android:textColorHint="#776e6e"
+            android:drawableLeft="@drawable/password"
+            android:inputType="textPassword" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|right"
+            >
+            <ImageButton
+                android:id="@+id/btnLogin"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:scaleType="fitCenter"
+                android:background="#f8eeec"
+                app:srcCompat="@drawable/btn_arraw1" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Are you new user? Register"
+            android:textColor="#537297"
+            android:textSize="16dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="10dp"
+            >
+
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/facebook"
+                android:textColor="#537297"
+                android:background="@drawable/social_button"
+                android:layout_marginRight="15dp"
+                android:text="Facebook" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:drawableRight="@drawable/google"
+                android:textColor="#537297"
+                android:background="@drawable/social_button"
+                android:text="Google" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            >
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

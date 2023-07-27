@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AlertDialog_Example">
+
+    <Button
+        android:id="@+id/btnDiaglog"
+        android:layout_width="142dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="92dp"
+        android:text="Open Diaglog"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:background="@drawable/button_custom"/>
+
+    <Button
+        android:id="@+id/btnDialog2"
+        android:layout_width="142dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="36dp"
+        android:text="Open Diaglog 2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnDiaglog" />
+</androidx.constraintlayout.widget.ConstraintLayout>
